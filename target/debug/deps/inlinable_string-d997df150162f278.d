@@ -1,0 +1,9 @@
+/home/cgee/Documents/git/astrel/target/debug/deps/inlinable_string-d997df150162f278.d: /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inlinable_string-0.1.15/src/lib.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inlinable_string-0.1.15/src/inline_string.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inlinable_string-0.1.15/src/string_ext.rs
+
+/home/cgee/Documents/git/astrel/target/debug/deps/libinlinable_string-d997df150162f278.rlib: /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inlinable_string-0.1.15/src/lib.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inlinable_string-0.1.15/src/inline_string.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inlinable_string-0.1.15/src/string_ext.rs
+
+/home/cgee/Documents/git/astrel/target/debug/deps/libinlinable_string-d997df150162f278.rmeta: /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inlinable_string-0.1.15/src/lib.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inlinable_string-0.1.15/src/inline_string.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inlinable_string-0.1.15/src/string_ext.rs
+
+/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inlinable_string-0.1.15/src/lib.rs:
+/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inlinable_string-0.1.15/src/inline_string.rs:
+/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inlinable_string-0.1.15/src/string_ext.rs:

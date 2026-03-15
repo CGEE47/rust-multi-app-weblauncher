@@ -1,0 +1,3 @@
+[workspace]
+members = ["apps/*", "launcher"]
+resolver = "3"
