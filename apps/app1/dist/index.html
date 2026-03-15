@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head><link rel="modulepreload" href="/app1/app1-ac1ee99d90f49519.js" crossorigin="anonymous" integrity="sha384-F3yQ+G4tTrcHmHWDNK1EWSZMGAZo45AQ7btmCJkCiWFIQKZKfME0aE3QWlfQ9/U5"><link rel="preload" href="/app1/app1-ac1ee99d90f49519_bg.wasm" crossorigin="anonymous" integrity="sha384-nfuK21ufKkMfWxqxWH8O3CsiPZdlNRWcP7Yx/ciaM96EtWaOThbeTx509C5qBY1S" as="fetch" type="application/wasm"></head>
+
+<body>
+<script type="module">
+import init, * as bindings from '/app1/app1-ac1ee99d90f49519.js';
+const wasm = await init({ module_or_path: '/app1/app1-ac1ee99d90f49519_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+
+</html>
