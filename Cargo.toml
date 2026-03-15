@@ -1,3 +1,0 @@
-[workspace]
-members = ["main-page"]
-resolver = "3"
