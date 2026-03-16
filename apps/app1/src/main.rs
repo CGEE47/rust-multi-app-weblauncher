@@ -3,5 +3,7 @@
 use leptos::prelude::*;
 
 fn main() {
-    leptos::mount::mount_to_body(|| view! { <p>"Hello, App1!"</p> })
+    leptos::mount::mount_to_body(|| view! { 
+        <a href="../">back</a>
+        <p>"Welcome to App1"</p> })
 }

@@ -1,7 +1,7 @@
 
 # Rust Web Launcher
 
-A multi‑app Rust backend, compiling to WASM frontend and Rocket as the server launcher. The repository contains a Rocket launcher, multiple WASM apps under `apps/`, and a modular build and mount structure.
+A multi‑app Rust backend, compiling to WASM frontend and Rocket as the server launcher. The repository contains a Rocket launcher, multiple WASM apps under `apps/`, and a modular build and mount structure. I've imported Leptos for the frontend but this can be easily replaced with your favourite frontend.
 
 ## Dependencies
 
