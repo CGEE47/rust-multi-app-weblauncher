@@ -14,7 +14,7 @@ cargo install trunk
 
 Clone the repository:
 ```sh
-git clone <repo-url>
+git clone https://github.com/CGEE47/rust-multi-app-weblauncher.git
 cd rust-multi-app-weblauncher
 ```
 
