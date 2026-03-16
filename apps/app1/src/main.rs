@@ -5,13 +5,16 @@ use leptos::prelude::*;
 fn main() {
     leptos::mount::mount_to_body(|| {
         view! {
-        <style>
-            "body{background-color:grey;}"
-            "body{color:white;}"
-            "body{padding:20px}"
-        </style>
+            <style>
+            "body {
+                background-color: grey;
+                color: white;
+                padding: 20px;
+                font-family: 'Courier New', monospace;
+            }"
+            </style>
 
-        <a href="../" style="
+            <a href="../" style="
             display:flex;
             justify-content:center;
             align-items:center;
@@ -22,7 +25,7 @@ fn main() {
             border-radius:6px;
             text-decoration:none;"
             > back
-        </a>
-        <h1> Welcome to App1 </h1> }
+            </a>
+            <h1> Welcome to App1 </h1> }
     })
 }
