@@ -3,6 +3,18 @@
 
 A multi‑app Rust backend, compiling to WASM frontend and Rocket as the server launcher. The repository contains a Rocket launcher, multiple WASM apps under `apps/`, and a modular build and mount structure. I've imported Leptos for the frontend but this can be easily replaced with your favourite frontend.
 
+## How it works
+
+Each app lives under:
+```sh
+apps/<app-name>/
+```
+and using Trunk, builds into:
+```sh
+apps/<app-name>/dist/
+```
+The launcher then loops through and serves these dist/ folders using Rocket, to make each app live on their relevant path. For the homepage this is '/', for app1 this is '/app1' and so on.
+
 # How to Install
 
 ## Dependencies
