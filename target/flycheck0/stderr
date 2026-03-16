@@ -1,5 +1,5 @@
-   0.059018496s  INFO prepare_target{force=false package_id=launcher v0.1.0 (/home/cgee/Documents/git/astrel/launcher) target="launcher"}: cargo::core::compiler::fingerprint: fingerprint error for launcher v0.1.0 (/home/cgee/Documents/git/astrel/launcher)/Check { test: false }/TargetInner { name: "launcher", doc: true, ..: with_path("/home/cgee/Documents/git/astrel/launcher/src/main.rs", Edition2024) }
-   0.059032904s  INFO prepare_target{force=false package_id=launcher v0.1.0 (/home/cgee/Documents/git/astrel/launcher) target="launcher"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/launcher-4cbad692f6f12454/bin-launcher`
+   0.080914053s  INFO prepare_target{force=false package_id=launcher v0.1.0 (/home/cgee/Documents/git/astrel/launcher) target="launcher"}: cargo::core::compiler::fingerprint: fingerprint error for launcher v0.1.0 (/home/cgee/Documents/git/astrel/launcher)/Check { test: false }/TargetInner { name: "launcher", doc: true, ..: with_path("/home/cgee/Documents/git/astrel/launcher/src/main.rs", Edition2024) }
+   0.080930354s  INFO prepare_target{force=false package_id=launcher v0.1.0 (/home/cgee/Documents/git/astrel/launcher) target="launcher"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/launcher-4cbad692f6f12454/bin-launcher`
 
 Caused by:
     No such file or directory (os error 2)
@@ -41,8 +41,8 @@ Stack backtrace:
   24: <unknown>
   25: __libc_start_main
   26: <unknown>
-   0.062606397s  INFO prepare_target{force=false package_id=rocket v0.5.1 target="rocket"}: cargo::core::compiler::fingerprint: fingerprint error for rocket v0.5.1/Check { test: false }/TargetInner { ..: lib_target("rocket", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rocket-0.5.1/src/lib.rs", Edition2021) }
-   0.062613436s  INFO prepare_target{force=false package_id=rocket v0.5.1 target="rocket"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/rocket-418c61ea5cbe309c/lib-rocket`
+   0.084434648s  INFO prepare_target{force=false package_id=rocket v0.5.1 target="rocket"}: cargo::core::compiler::fingerprint: fingerprint error for rocket v0.5.1/Check { test: false }/TargetInner { ..: lib_target("rocket", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rocket-0.5.1/src/lib.rs", Edition2021) }
+   0.084442159s  INFO prepare_target{force=false package_id=rocket v0.5.1 target="rocket"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/rocket-418c61ea5cbe309c/lib-rocket`
 
 Caused by:
     No such file or directory (os error 2)
@@ -85,8 +85,8 @@ Stack backtrace:
   25: <unknown>
   26: __libc_start_main
   27: <unknown>
-   0.064752324s  INFO prepare_target{force=false package_id=rocket_codegen v0.5.1 target="rocket_codegen"}: cargo::core::compiler::fingerprint: fingerprint error for rocket_codegen v0.5.1/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("rocket_codegen", ["proc-macro"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rocket_codegen-0.5.1/src/lib.rs", Edition2021) }
-   0.064758920s  INFO prepare_target{force=false package_id=rocket_codegen v0.5.1 target="rocket_codegen"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/rocket_codegen-517c4ebdb3901235/lib-rocket_codegen`
+   0.086582706s  INFO prepare_target{force=false package_id=rocket_codegen v0.5.1 target="rocket_codegen"}: cargo::core::compiler::fingerprint: fingerprint error for rocket_codegen v0.5.1/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("rocket_codegen", ["proc-macro"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rocket_codegen-0.5.1/src/lib.rs", Edition2021) }
+   0.086589648s  INFO prepare_target{force=false package_id=rocket_codegen v0.5.1 target="rocket_codegen"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/rocket_codegen-517c4ebdb3901235/lib-rocket_codegen`
 
 Caused by:
     No such file or directory (os error 2)
@@ -130,8 +130,8 @@ Stack backtrace:
   26: <unknown>
   27: __libc_start_main
   28: <unknown>
-   0.065094255s  INFO prepare_target{force=false package_id=rocket_http v0.5.1 target="rocket_http"}: cargo::core::compiler::fingerprint: fingerprint error for rocket_http v0.5.1/Build/TargetInner { ..: lib_target("rocket_http", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rocket_http-0.5.1/src/lib.rs", Edition2021) }
-   0.065098689s  INFO prepare_target{force=false package_id=rocket_http v0.5.1 target="rocket_http"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/rocket_http-edd33e4c175bc258/lib-rocket_http`
+   0.086925670s  INFO prepare_target{force=false package_id=rocket_http v0.5.1 target="rocket_http"}: cargo::core::compiler::fingerprint: fingerprint error for rocket_http v0.5.1/Build/TargetInner { ..: lib_target("rocket_http", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rocket_http-0.5.1/src/lib.rs", Edition2021) }
+   0.086930200s  INFO prepare_target{force=false package_id=rocket_http v0.5.1 target="rocket_http"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/rocket_http-edd33e4c175bc258/lib-rocket_http`
 
 Caused by:
     No such file or directory (os error 2)
@@ -176,8 +176,8 @@ Stack backtrace:
   27: <unknown>
   28: __libc_start_main
   29: <unknown>
-   0.065303809s  INFO prepare_target{force=false package_id=cookie v0.18.1 target="cookie"}: cargo::core::compiler::fingerprint: fingerprint error for cookie v0.18.1/Build/TargetInner { name_inferred: true, ..: lib_target("cookie", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.18.1/src/lib.rs", Edition2018) }
-   0.065308318s  INFO prepare_target{force=false package_id=cookie v0.18.1 target="cookie"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/cookie-a4ce22f00b79dc64/lib-cookie`
+   0.087130550s  INFO prepare_target{force=false package_id=cookie v0.18.1 target="cookie"}: cargo::core::compiler::fingerprint: fingerprint error for cookie v0.18.1/Build/TargetInner { name_inferred: true, ..: lib_target("cookie", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.18.1/src/lib.rs", Edition2018) }
+   0.087134151s  INFO prepare_target{force=false package_id=cookie v0.18.1 target="cookie"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/cookie-a4ce22f00b79dc64/lib-cookie`
 
 Caused by:
     No such file or directory (os error 2)
@@ -223,8 +223,8 @@ Stack backtrace:
   28: <unknown>
   29: __libc_start_main
   30: <unknown>
-   0.065463902s  INFO prepare_target{force=false package_id=time v0.3.47 target="time"}: cargo::core::compiler::fingerprint: fingerprint error for time v0.3.47/Build/TargetInner { benched: false, ..: lib_target("time", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/time-0.3.47/src/lib.rs", Edition2024) }
-   0.065467632s  INFO prepare_target{force=false package_id=time v0.3.47 target="time"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/time-b4d93dd90c7b68f8/lib-time`
+   0.087272459s  INFO prepare_target{force=false package_id=time v0.3.47 target="time"}: cargo::core::compiler::fingerprint: fingerprint error for time v0.3.47/Build/TargetInner { benched: false, ..: lib_target("time", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/time-0.3.47/src/lib.rs", Edition2024) }
+   0.087276075s  INFO prepare_target{force=false package_id=time v0.3.47 target="time"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/time-b4d93dd90c7b68f8/lib-time`
 
 Caused by:
     No such file or directory (os error 2)
@@ -271,8 +271,8 @@ Stack backtrace:
   29: <unknown>
   30: __libc_start_main
   31: <unknown>
-   0.065708665s  INFO prepare_target{force=false package_id=time-macros v0.2.27 target="time_macros"}: cargo::core::compiler::fingerprint: fingerprint error for time-macros v0.2.27/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("time_macros", ["proc-macro"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/time-macros-0.2.27/src/lib.rs", Edition2024) }
-   0.065713442s  INFO prepare_target{force=false package_id=time-macros v0.2.27 target="time_macros"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/time-macros-a2f03bfe5865cafb/lib-time_macros`
+   0.087489923s  INFO prepare_target{force=false package_id=time-macros v0.2.27 target="time_macros"}: cargo::core::compiler::fingerprint: fingerprint error for time-macros v0.2.27/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("time_macros", ["proc-macro"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/time-macros-0.2.27/src/lib.rs", Edition2024) }
+   0.087493408s  INFO prepare_target{force=false package_id=time-macros v0.2.27 target="time_macros"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/time-macros-a2f03bfe5865cafb/lib-time_macros`
 
 Caused by:
     No such file or directory (os error 2)
@@ -320,8 +320,8 @@ Stack backtrace:
   30: <unknown>
   31: __libc_start_main
   32: <unknown>
-   0.066644621s  INFO prepare_target{force=false package_id=rocket_http v0.5.1 target="rocket_http"}: cargo::core::compiler::fingerprint: fingerprint error for rocket_http v0.5.1/Check { test: false }/TargetInner { ..: lib_target("rocket_http", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rocket_http-0.5.1/src/lib.rs", Edition2021) }
-   0.066649430s  INFO prepare_target{force=false package_id=rocket_http v0.5.1 target="rocket_http"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/rocket_http-94f0fe5d4e1c27ed/lib-rocket_http`
+   0.088368847s  INFO prepare_target{force=false package_id=rocket_http v0.5.1 target="rocket_http"}: cargo::core::compiler::fingerprint: fingerprint error for rocket_http v0.5.1/Check { test: false }/TargetInner { ..: lib_target("rocket_http", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rocket_http-0.5.1/src/lib.rs", Edition2021) }
+   0.088374478s  INFO prepare_target{force=false package_id=rocket_http v0.5.1 target="rocket_http"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/rocket_http-94f0fe5d4e1c27ed/lib-rocket_http`
 
 Caused by:
     No such file or directory (os error 2)
@@ -365,8 +365,8 @@ Stack backtrace:
   26: <unknown>
   27: __libc_start_main
   28: <unknown>
-   0.066882988s  INFO prepare_target{force=false package_id=cookie v0.18.1 target="cookie"}: cargo::core::compiler::fingerprint: fingerprint error for cookie v0.18.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cookie", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.18.1/src/lib.rs", Edition2018) }
-   0.066886556s  INFO prepare_target{force=false package_id=cookie v0.18.1 target="cookie"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/cookie-5d3a3875cf90e52b/lib-cookie`
+   0.088602062s  INFO prepare_target{force=false package_id=cookie v0.18.1 target="cookie"}: cargo::core::compiler::fingerprint: fingerprint error for cookie v0.18.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cookie", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.18.1/src/lib.rs", Edition2018) }
+   0.088605914s  INFO prepare_target{force=false package_id=cookie v0.18.1 target="cookie"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/cookie-5d3a3875cf90e52b/lib-cookie`
 
 Caused by:
     No such file or directory (os error 2)
@@ -411,8 +411,8 @@ Stack backtrace:
   27: <unknown>
   28: __libc_start_main
   29: <unknown>
-   0.066981577s  INFO prepare_target{force=false package_id=time v0.3.47 target="time"}: cargo::core::compiler::fingerprint: fingerprint error for time v0.3.47/Check { test: false }/TargetInner { benched: false, ..: lib_target("time", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/time-0.3.47/src/lib.rs", Edition2024) }
-   0.066984719s  INFO prepare_target{force=false package_id=time v0.3.47 target="time"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/time-7bbbb302c5761bde/lib-time`
+   0.088699247s  INFO prepare_target{force=false package_id=time v0.3.47 target="time"}: cargo::core::compiler::fingerprint: fingerprint error for time v0.3.47/Check { test: false }/TargetInner { benched: false, ..: lib_target("time", ["lib"], "/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/time-0.3.47/src/lib.rs", Edition2024) }
+   0.088702722s  INFO prepare_target{force=false package_id=time v0.3.47 target="time"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/time-7bbbb302c5761bde/lib-time`
 
 Caused by:
     No such file or directory (os error 2)
@@ -458,8 +458,8 @@ Stack backtrace:
   28: <unknown>
   29: __libc_start_main
   30: <unknown>
-   0.067766970s  INFO prepare_target{force=false package_id=launcher v0.1.0 (/home/cgee/Documents/git/astrel/launcher) target="launcher"}: cargo::core::compiler::fingerprint: fingerprint error for launcher v0.1.0 (/home/cgee/Documents/git/astrel/launcher)/Check { test: true }/TargetInner { name: "launcher", doc: true, ..: with_path("/home/cgee/Documents/git/astrel/launcher/src/main.rs", Edition2024) }
-   0.067771461s  INFO prepare_target{force=false package_id=launcher v0.1.0 (/home/cgee/Documents/git/astrel/launcher) target="launcher"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/launcher-57da9a156f2cb2cc/test-bin-launcher`
+   0.089440852s  INFO prepare_target{force=false package_id=launcher v0.1.0 (/home/cgee/Documents/git/astrel/launcher) target="launcher"}: cargo::core::compiler::fingerprint: fingerprint error for launcher v0.1.0 (/home/cgee/Documents/git/astrel/launcher)/Check { test: true }/TargetInner { name: "launcher", doc: true, ..: with_path("/home/cgee/Documents/git/astrel/launcher/src/main.rs", Edition2024) }
+   0.089445963s  INFO prepare_target{force=false package_id=launcher v0.1.0 (/home/cgee/Documents/git/astrel/launcher) target="launcher"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/cgee/Documents/git/astrel/target/debug/.fingerprint/launcher-57da9a156f2cb2cc/test-bin-launcher`
 
 Caused by:
     No such file or directory (os error 2)
