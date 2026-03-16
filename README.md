@@ -8,7 +8,7 @@ A multi‑app Rust backend, compiling to WASM frontend and Rocket as the server 
 Clone the repository:
 ```sh
 git  clone <repo-url>
-cd  astrel
+cd rust-multi-app-weblauncher
 ```
 Install  required  tooling: 
 ```sh
