@@ -1,5 +1,5 @@
 
-# Astrel
+# Rust Web Launcher
 
 A multi‑app Rust backend, compiling to WASM frontend and Rocket as the server launcher. The repository contains a Rocket launcher, multiple WASM apps under `apps/`, and a modular build and mount structure.
 
