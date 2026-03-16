@@ -4,6 +4,12 @@ use leptos::prelude::*;
 
 fn main() {
     leptos::mount::mount_to_body(|| view! { 
-        <a href="../">back</a>
+        <style>
+            "body{background-color:grey;}"
+            "body{color:white;}"
+            "body{padding:20px}"
+        </style>
+        
+        <button><a href="../">back</a></button>
         <p>"Welcome to App1"</p> })
 }

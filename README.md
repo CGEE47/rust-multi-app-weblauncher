@@ -5,7 +5,7 @@ A multi‑app Rust backend, compiling to WASM frontend and Rocket as the server 
 
 ## Dependencies
 
-Install required tooling: 
+Install required tools: 
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 rustup target add wasm32-unknown-unknown
@@ -31,17 +31,17 @@ apps/<app-name>/dist/
 The launcher serves these dist/ folders directly.
 
 ## Build the home app
-The home app is served at /, so it uses the default public URL:
+The home app is sent to "/", so it uses the default public URL:
 ```sh
 cd apps/home && trunk build && cd ../..
 ```
 ## Build all other apps
 Every other app must be built with a --public-url matching its mount path.
-Use this pattern:
+Use this template:
 ```sh
 v=app1; cd apps/$v && trunk build --public-url /$v && cd ../..
 ```
-Replace app1 with the name of the app you want to build.
+Replace 'app1' with the name of the app you want to build.
 ## Running the launcher
 After building the apps:
 ```sh

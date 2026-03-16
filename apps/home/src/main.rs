@@ -3,14 +3,17 @@ use leptos::prelude::*;
 fn main() {
     leptos::mount::mount_to_body(|| {
         view! {
-            <style> background-color: grey; </style>
-            
-           <h1> Welcome to the Home page </h1>
+        <style>
+            "body{background-color:grey;}"
+            "body{color:white;}"
+            "body{padding:20px}"
+        </style>
 
-           <p> If you want to navigate to App1, click below</p>
+        <h1> Welcome to the Home page </h1>
 
-           <a href="../app1">  - App1</a>
+        <p> If you want to navigate to App1, click below</p>
+
+        <button><a href="../app1">App1</a></button>
         }
     })
-
 }
