@@ -5,17 +5,19 @@ A multi‑app Rust backend, compiling to WASM frontend and Rocket as the server 
 
 ## Dependencies
 
-Clone the repository:
-```sh
-git clone <repo-url>
-cd rust-multi-app-weblauncher
-```
 Install required tooling: 
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 rustup target add wasm32-unknown-unknown
 cargo install trunk
 ```
+
+Clone the repository:
+```sh
+git clone <repo-url>
+cd rust-multi-app-weblauncher
+```
+
 ## Building the Apps
 
 Each app lives under:
