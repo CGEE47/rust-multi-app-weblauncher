@@ -1,9 +1,0 @@
-/home/cgee/Documents/git/astrel/target/wasm32-unknown-unknown/debug/deps/serde_spanned-9682b5b306a4e440.d: /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_spanned-1.0.4/src/lib.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_spanned-1.0.4/src/spanned.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_spanned-1.0.4/src/de.rs
-
-/home/cgee/Documents/git/astrel/target/wasm32-unknown-unknown/debug/deps/libserde_spanned-9682b5b306a4e440.rlib: /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_spanned-1.0.4/src/lib.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_spanned-1.0.4/src/spanned.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_spanned-1.0.4/src/de.rs
-
-/home/cgee/Documents/git/astrel/target/wasm32-unknown-unknown/debug/deps/libserde_spanned-9682b5b306a4e440.rmeta: /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_spanned-1.0.4/src/lib.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_spanned-1.0.4/src/spanned.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_spanned-1.0.4/src/de.rs
-
-/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_spanned-1.0.4/src/lib.rs:
-/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_spanned-1.0.4/src/spanned.rs:
-/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_spanned-1.0.4/src/de.rs:

@@ -1,9 +1,0 @@
-/home/cgee/Documents/git/astrel/target/debug/deps/stable_pattern-5c528f9e0226f02d.d: /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable-pattern-0.1.0/src/lib.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable-pattern-0.1.0/src/pattern.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable-pattern-0.1.0/src/split.rs
-
-/home/cgee/Documents/git/astrel/target/debug/deps/libstable_pattern-5c528f9e0226f02d.rlib: /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable-pattern-0.1.0/src/lib.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable-pattern-0.1.0/src/pattern.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable-pattern-0.1.0/src/split.rs
-
-/home/cgee/Documents/git/astrel/target/debug/deps/libstable_pattern-5c528f9e0226f02d.rmeta: /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable-pattern-0.1.0/src/lib.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable-pattern-0.1.0/src/pattern.rs /home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable-pattern-0.1.0/src/split.rs
-
-/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable-pattern-0.1.0/src/lib.rs:
-/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable-pattern-0.1.0/src/pattern.rs:
-/home/cgee/.var/app/com.vscodium.codium/data/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable-pattern-0.1.0/src/split.rs:
