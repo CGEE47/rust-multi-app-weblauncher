@@ -32,13 +32,17 @@ cd rust-multi-app-weblauncher
 ## Build the home app
 The home app is sent to "/", so it uses the default public URL:
 ```sh
-cd apps/home && trunk build && cd ../..
+cd apps/home
+trunk build
+cd ../..
 ```
 ## Build all other apps
 Every other app must be built with a --public-url matching its mount path.
 Use this template:
 ```sh
-v=app1; cd apps/$v && trunk build --public-url /$v && cd ../..
+v=app1; cd apps/$v
+trunk build --public-url /$v
+cd ../..
 ```
 Replace 'app1' with the name of the app you want to build.
 ## Running the launcher
